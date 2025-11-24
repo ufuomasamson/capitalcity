@@ -137,8 +137,7 @@ document.addEventListener('DOMContentLoaded', function() {
             };
 
             // Send email using EmailJS
-            // Replace 'YOUR_SERVICE_ID' and 'YOUR_TEMPLATE_ID' with your actual IDs
-            emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+            emailjs.send('service_omlfbcp', 'template_otikgg4', templateParams)
                 .then(function(response) {
                     // Success
                     formMessage.textContent = 'Thank you! Your message has been sent successfully. We will get back to you soon.';

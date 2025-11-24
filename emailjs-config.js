@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (typeof emailjs !== 'undefined') {
         // Replace 'YOUR_PUBLIC_KEY' with your EmailJS Public Key
         // You can find this in your EmailJS Dashboard > Account > API Keys
-        emailjs.init('YOUR_PUBLIC_KEY');
+        emailjs.init('qy-cykar2zy7AjmOf');
         
         // Update the service and template IDs in script.js
         // Service ID: Found in EmailJS Dashboard > Email Services
