@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Capital City Advocates</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="emailjs-config.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/cca-logo.png" alt="Capital City Advocates Logo">
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="two-column">
+                <div class="column-left">
+                    <img src="img/contact.jpg" alt="Contact Capital City Advocates">
+                </div>
+                <div class="column-right">
+                    <h2>Contact Us</h2>
+                    <p>Feel free to call for an appointment. I don't charge anything for that first discussion, and will give you options to choose from. You will know exactly what the total cost will be before you commit to anything.</p>
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> <a href="mailto:clint@clintsmith.lawyer">clint@clintsmith.lawyer</a></p>
+                        <p><strong>Phone:</strong> <a href="tel:4803463558">(480) 346-3558</a></p>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="firstName">First Name <span class="required">*</span></label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name <span class="required">*</span></label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message <span class="required">*</span></label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Send</button>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="three-column footer-columns">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <a href="index.html">
+                            <img src="img/cca-logo.png" alt="Capital City Advocates Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Locations</h3>
+                    <p>4110 N. Scottsdale Road, Suite 170A<br>Scottsdale, AZ 85251</p>
+                    <p>2700 S. Gilbert Road, Suite 5<br>Chandler, AZ 85286</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <p>clint@clintsmith.lawyer</p>
+                    <p>(480) 346-3558</p>
+                    <p>(480) 787-7366</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
