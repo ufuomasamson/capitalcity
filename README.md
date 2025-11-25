@@ -37,7 +37,7 @@ The contact form uses EmailJS to send emails. Follow these steps to set it up:
      From: {{from_name}} ({{from_email}})
      
      Message:
-     {{message}}
+     {{message}}  <!-- This already includes "Email: ..." followed by the user's message -->
      ```
    - Set the "To Email" field to: `hello@ccalawyer.it.com`
    - In the template settings, set **Reply-To** to `{{reply_to}}` so replies go straight to your visitor

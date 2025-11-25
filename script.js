@@ -160,6 +160,10 @@ document.addEventListener('DOMContentLoaded', function() {
             const lastName = formData.get('lastName');
             const email = formData.get('email');
             const message = formData.get('message');
+            const combinedMessage = `Email: ${email}
+
+Message:
+${message}`;
 
             // Disable submit button and show loading state
             submitButton.disabled = true;
@@ -173,7 +177,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 from_email: email,
                 first_name: firstName,
                 last_name: lastName,
-                message: message,
+                message: combinedMessage,
                 to_email: 'hello@ccalawyer.it.com',
                 reply_to: email
             };

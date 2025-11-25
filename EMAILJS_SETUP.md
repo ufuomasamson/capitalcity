@@ -34,10 +34,8 @@ This guide will help you set up EmailJS for the contact form on the website.
    You have received a new contact form submission:
    
    Name: {{from_name}}
-   Email: {{from_email}}
    
-   Message:
-   {{message}}
+   {{message}} <!-- Already contains "Email: ..." followed by the user's message -->
    ```
    
 4. In the **"To Email"** field, enter: `hello@ccalawyer.it.com`
