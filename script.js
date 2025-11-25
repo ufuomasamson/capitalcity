@@ -174,11 +174,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 first_name: firstName,
                 last_name: lastName,
                 message: message,
-                to_email: 'samsonufuomaenzo@gmail.com'
+                to_email: 'hello@ccalawyer.it.com'
             };
 
             // Send email using EmailJS
-            emailjs.send('service_omlfbcp', 'template_otikgg4', templateParams)
+            emailjs.send('service_hxpjgv7', 'template_otikgg4', templateParams)
                 .then(function(response) {
                     // Success
                     formMessage.textContent = 'Thank you! Your message has been sent successfully. We will get back to you soon.';
@@ -204,7 +204,7 @@ document.addEventListener('DOMContentLoaded', function() {
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
             const formMessage = document.getElementById('formMessage');
-            formMessage.textContent = 'Email service not configured. Please call us directly at (480) 346-3558 or email clint@clintsmith.lawyer';
+            formMessage.textContent = 'Email service not configured. Please call us directly at (480) 346-3558 or email hello@ccalawyer.it.com';
             formMessage.className = 'form-message error';
         });
     }

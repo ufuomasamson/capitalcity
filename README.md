@@ -39,12 +39,13 @@ The contact form uses EmailJS to send emails. Follow these steps to set it up:
      Message:
      {{message}}
      ```
-   - Set the "To Email" field to: `samsonufuomaenzo@gmail.com`
+   - Set the "To Email" field to: `hello@ccalawyer.it.com`
    - Copy your **Template ID**
 
 4. **Get Your Public Key**
    - Go to "Account" > "General"
    - Copy your **Public Key**
+   
 
 5. **Update Configuration Files**
    - Open `emailjs-config.js`

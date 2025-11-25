@@ -40,7 +40,7 @@ This guide will help you set up EmailJS for the contact form on the website.
    {{message}}
    ```
    
-4. In the **"To Email"** field, enter: `samsonufuomaenzo@gmail.com`
+4. In the **"To Email"** field, enter: `hello@ccalawyer.it.com`
 5. Click **"Save"**
 6. Copy the **Template ID** (e.g., `template_xyz789`)
 
@@ -82,7 +82,7 @@ emailjs.send('service_abc123', 'template_xyz789', templateParams)
 1. Open `contact.html` in your browser
 2. Fill out the contact form
 3. Click "Send"
-4. Check your email inbox (samsonufuomaenzo@gmail.com) for the test message
+4. Check your email inbox (hello@ccalawyer.it.com) for the test message
 
 ## Troubleshooting
 
