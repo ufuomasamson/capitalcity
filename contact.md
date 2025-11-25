@@ -36,7 +36,7 @@ Feel free to call for an appointment. I don’t charge anything for that first d
 
 clint@clintsmith.lawyer
 
-(480) 346-3558
+(+1) (480) 914-4872
 
 
 
@@ -65,7 +65,7 @@ Send Button
 
 
 When the form is filled the message and the information should be sent to this email:
-samsonufuomaenzo@gmail.com
+hello@ccalawyer.it.com
 
 
 
@@ -125,11 +125,11 @@ Paragraph:
 
 clint@clintsmith.lawyer
 
-(480)346-3558
+(+1) (480) 914-4872
 
 
 
-(480)787-7366
++1 (480) 914-4872
 
 
 

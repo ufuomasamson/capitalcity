@@ -80,7 +80,7 @@ NEW! I offer complete estate plans from start to finish, including signing, remo
 
 
 
-Follow by a CTA button: Call for a free consultation: (480) 346-3558
+Follow by a CTA button: Call for a free consultation: +1 (480) 914-4872
 
 
 
@@ -371,9 +371,9 @@ Paragraph:
 
 clint@clintsmith.lawyer
 
-(480)346-3558
+(+1) (480) 914-4872
 
 
 
-(480)787-7366
++1 (480) 914-4872
 

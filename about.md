@@ -132,11 +132,11 @@ Header: Contact
 
 Paragraph:
 
-clint@clintsmith.lawyer
+hello@ccalawyer.it.com
 
-(480)346-3558
++1 (480) 914-4872
 
 
 
-(480)787-7366
++1 (480) 914-4872
 

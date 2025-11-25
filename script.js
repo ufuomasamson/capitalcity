@@ -174,7 +174,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 first_name: firstName,
                 last_name: lastName,
                 message: message,
-                to_email: 'hello@ccalawyer.it.com'
+                to_email: 'hello@ccalawyer.it.com',
+                reply_to: email
             };
 
             // Send email using EmailJS
@@ -191,7 +192,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 }, function(error) {
                     // Error
                     console.error('EmailJS Error:', error);
-                    formMessage.textContent = 'Sorry, there was an error sending your message. Please try again or call us directly at (480) 346-3558.';
+                    formMessage.textContent = 'Sorry, there was an error sending your message. Please try again or call us directly at +1 (480) 914-4872.';
                     formMessage.className = 'form-message error';
                     
                     // Re-enable submit button
@@ -204,7 +205,7 @@ document.addEventListener('DOMContentLoaded', function() {
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
             const formMessage = document.getElementById('formMessage');
-            formMessage.textContent = 'Email service not configured. Please call us directly at (480) 346-3558 or email hello@ccalawyer.it.com';
+            formMessage.textContent = 'Email service not configured. Please call us directly at +1 (480) 914-4872 or email hello@ccalawyer.it.com';
             formMessage.className = 'form-message error';
         });
     }

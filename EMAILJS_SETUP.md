@@ -41,8 +41,9 @@ This guide will help you set up EmailJS for the contact form on the website.
    ```
    
 4. In the **"To Email"** field, enter: `hello@ccalawyer.it.com`
-5. Click **"Save"**
-6. Copy the **Template ID** (e.g., `template_xyz789`)
+5. In the template settings, set **Reply-To** to `{{reply_to}}` so you can reply directly to form submissions
+6. Click **"Save"**
+7. Copy the **Template ID** (e.g., `template_xyz789`)
 
 ## Step 4: Get Your Public Key
 
